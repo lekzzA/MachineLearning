@@ -1,0 +1,14 @@
+Gradient descent is an algorithm used to minimize a loss function using parameter learning rate and gradient.
+
+For example, suppose there is a man standing on a mountain. There is steep down slope ahead of him, and after that, steep up to another mountain.
+If he wants to reach at the bottom, he can do so without looking how much distance is remaining ahead of him. He can judge by the fact that how much slope is it at current point.
+
+As he approaches the bottom of the mountain, land will become more plane and less steep.
+
+If the man follows the gradient descent algorithm, he will change the size of his steps based on the slope. i.e., at the top, where slope is very high, he'll take large steps, to reach the bottom quickly.
+But when he goes down, slope decreases, and he'll start taking smaller steps.
+So, his step depends upon the slope at the current point.
+
+This is what happens in the gradient descent algorithm. The mountain is analogous to the graph of the loss function that we want to minimize.
+Step size of the man is analogous to learning rate.
+Slope of mountain is analogous to the slope of the graph at any point (i.e. it's derivative).
